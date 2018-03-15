@@ -3,8 +3,7 @@
 
 var entries = [] //an empty array to represent a part of the numerical expression yet to be calculated.
 var temp = ''  //an empty string.  This will hold a partially entered number.
-var percent = false
-var zero = false
+var result = 0 //this is where the calculation will be stored when equals
 
 document.addEventListener('DOMContentLoaded', start)
 
@@ -19,6 +18,10 @@ function buttonEventListeners(buttonClass, processFunction) {
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].addEventListener('click',processFunction)
     }
+}
+
+function processNumber (evt) {
+    
 }
 
 //Numbers add to temp
