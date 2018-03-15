@@ -1,34 +1,84 @@
-.calculator{
-    width: 20em;
-    height: 30em;
+body {
+    background: gray;
+}
+
+.calculator {
+    width: 22em;
+    height: 34.5em;
     margin: 10px auto;
     padding: 0px 25px;
-    justify-content: center;
-    background: linear-gradient(chocolate,chocolate);
+    background: linear-gradient(white, whitesmoke);
     border-radius: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     box-shadow: 1px 10px 20px 0;
 }
 
-/*h1.title*/
+div {
+    display: -ms-grid;
+}
 
-/*abbr.title*/
+h1.title {
+    text-align: center;
+    color: gray;
+    padding-top: 0.5em;
+    font-size: 3em;
+}
 
-/*div.display*/
+.display{
+    width: 5em;
+    height: 1.5em;
+    margin: 5px 3px 9px 15px;
+    padding: 0px 2px, 2px, 0px;
+    text-align: right; 
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: #323232;
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/*div.row*/
+.row {
+    display: block;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border-width: 0px;
+    border-radius: 50%;
+    margin: 5px 3px;
+    font-size: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.control {
+    background-color: firebrick;
+    color: white;
+}
+
+.tall-operator {
+    height: 92px;
+    float: right;
+    margin: 5px 8px;
+}
+
+p {
+    font-family: 'Roboto', cursive;
+    text-align: left;
+    display: float;
+    color: white;
+    font-size: 120%;
+}
 
 /*abbr.oporeto*/
 
 /*abbr.nama*/
 
-/*button.controls*/
-
 /*button.number*/
 
 /*button.operator*/
 
-/*button.tall-operator*/
-
-
-
+/*abbr.title*/
